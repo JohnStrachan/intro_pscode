@@ -2,3 +2,28 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+START
+
+Display Text "Welcome to the Warehouse."
+
+Set variable 'User Location' with randomly generated location in a 20x20 x/y axis
+
+Set variable 'Target Location' with randomly generated location in a 20x20 x/y axis
+
+WHILE 'User Location' does not equal 'Target Location'
+    
+    Display Text "You are currently at 'User Location' and you want to be at 'Target Location'."
+
+    Display Text "Do you want to move one space North, South, East, Or West?"
+
+    Update 'User Location' according to response where North adds 1 to y axis, South adds -1 to y axis, East adds 1 to x axis and West adds -1 to x axis.
+END WHILE
+
+Display Text "You have arrived!"
+
+END
+
+
+
+
+

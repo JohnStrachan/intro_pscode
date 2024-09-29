@@ -2,3 +2,40 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+START 
+
+Display Text "Would you like to play a game? (YES/NO)"
+
+if answer equals "YES"
+    Set variable 'Winning Number' to 0
+    
+    Set variable 'User Number' to 0
+    
+    Update 'Winning Number' using Random Number Generate to a value between 1-10
+    
+    Display Text "Pick a number between 1 and 10."
+    
+    Set 'User Number' value to equal response.
+    
+    if 'Winning Number' equals 'User Number'  // 1st Attempt
+        Display Text "You Win!"
+    else Display Text "Guess Again."
+    
+    Set 'User Number' value to equal response.
+    
+    if 'Winning Number' equals 'User Number'   // 2nd Attempt
+        Display Text "You Win!"
+    else Display Text "Guess Again."
+
+    Set 'User Number' value to equal response.
+
+   if 'Winning Number' equals 'User Number'   // 3rd Attempt
+        Display Text "You Win!"
+    else Display Text "Game Over, You Lose."
+
+else Display Text "Maybe Next Time."
+
+END
+
+ 
+    
